@@ -1,0 +1,53 @@
+body {
+    background-color: orange;
+}
+
+body:hover {
+    background-image: url(https://karelinform.ru/attachments/8da391adcd6247402d309b05c50fffa2b6909788/store/crop/0/305/693/1194/500/0/0/70ad8aa34ac813dd0cb0c7831c19e3b089504fd5303fbac32afae36fdf88/1717165900573.webp);
+    background-size: 150px;
+}
+/* background-image: url(file:///C:/Users/Lenovo/Downloads/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png); */
+
+
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: orange;
+    border: 5px goldenrod;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.button:active {
+    background-color: chocolate;
+}
+
+.button:hover {
+    background-image: url(file:///C:/Users/Lenovo/Downloads/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png);
+    background-size: 125px;
+}
+
+.button-text {
+
+}
+
+.btn-img {
+    pointer-events: none;
+    width: 200px;
+    height: 310px;
+}
+
+.hamster-coin {
+    width: 100px;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.hamster-coins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
